@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+
+sqlmodel
+sqlalchemy
+alembic
+asyncpg
+pandas
+google-cloud-bigquery
