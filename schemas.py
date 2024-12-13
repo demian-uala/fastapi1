@@ -6,7 +6,7 @@ class User(BaseModel):
     name: str
     lastname: str
     dni: str
-    phone: str | None
+    phone: str | None = None
     email: str
 
     model_config = ConfigDict(from_attributes=True)

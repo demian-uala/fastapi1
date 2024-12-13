@@ -13,4 +13,4 @@ def healthcheck():
     return "OK"
 
 
-app.include_router(user, tags=["CRUD Users"])
+app.include_router(user, prefix="/user", tags=["CRUD Users"])
